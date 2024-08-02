@@ -1,0 +1,16 @@
+.wrapper {
+    p {
+        margin: 12px 0;
+    }
+    .character-progress {
+        .node {
+            padding: 8px 30px;
+            display: inline-block;
+            background-color: green;
+            border: 1px solid black;
+            &:not(:last-child) {
+                margin-right: 4px;
+            }
+        }
+    }
+}
